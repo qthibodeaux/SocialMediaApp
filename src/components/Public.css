@@ -1,0 +1,54 @@
+.publicCenter {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.communityCenter {
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.communityCenter > div {
+    text-align: center;
+}
+
+.heroOne > h1 {
+    font-size: 3rem;
+    background-color: red;
+
+    background-image: var(--buttonBg);
+    background-size: 100%;
+    background-repeat: repeat;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    margin: 0;
+    text-align: center;
+}
+
+.heroOne > h6 {
+    text-align: center;
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+.bicon {
+    height: 5rem;
+    width: 5rem;
+    color: #f9a225;
+}
+
+.logreg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}

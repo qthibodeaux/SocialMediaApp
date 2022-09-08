@@ -1,0 +1,30 @@
+.Nav-icons {
+    display: flex;
+    justify-content: space-between;
+    background: var(--cardColor);
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+
+.Nav-icons > img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.Nav-icons > div {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nav-icons > div:hover {
+    background-color: var(--cardColor2);
+}
+
+.nav-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}

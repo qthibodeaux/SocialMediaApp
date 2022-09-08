@@ -1,0 +1,20 @@
+.Info-card {
+    display: flex;
+    gap: 0.75rem;
+    padding: 1rem;
+    background-color: var(--cardColor);
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.logout-btn {
+    height: 2rem;
+    width: 7rem;
+    margin-top: 6rem;
+    align-self: flex-end;
+}
+
+.uipen {
+    width: 2rem;
+    height: 1.2rem;
+}

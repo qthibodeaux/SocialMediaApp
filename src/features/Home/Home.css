@@ -1,0 +1,17 @@
+.bigdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Home {
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+    max-width: 1300px;
+}
+
+.postSide {
+    width: 598px;
+}

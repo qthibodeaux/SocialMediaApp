@@ -1,0 +1,11 @@
+.Posts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.defaultavi {
+    height: 3.1rem;
+    width: 3.1rem;
+    color: #f9a225;
+}
